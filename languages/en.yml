@@ -10,6 +10,7 @@ archive_a: Archives
 archive_b: "Archives: %s"
 page: Page %d
 recent_posts: Recent Posts
+friend_website_links: Friend Website Links
 newer: Newer
 older: Older
 share: Share
