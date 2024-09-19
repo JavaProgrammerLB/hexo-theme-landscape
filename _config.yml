@@ -15,8 +15,8 @@ subtitle:
 # Each name must correspond to the icon name of Fork Awesome
 # https://forkaweso.me/Fork-Awesome/icons/
 links:
-#  github: https://github.com/your_github_account
-#  twitter: https://twitter.com/your_twitter_account
+  github: https://github.com/JavaProgrammerLB
+  twitter: https://x.com/liubeichixigua
 #  telegram: https://t.me/your_telegram_account
 
 # ===============
@@ -63,10 +63,10 @@ recent_posts_limits: 5
 # Miscellaneous
 # ===============
 # Google Analytics ID
-google_analytics:
+google_analytics: 'G-6PPTBTNBD7'
 gauges_analytics:
 # Favicon path
-favicon: /favicon.png
+favicon: /favicon.ico
 # Twitter ID
 twitter:
 fb_admins:
