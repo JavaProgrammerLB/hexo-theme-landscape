@@ -7,7 +7,7 @@
       <ul>
         <% config.friend_website_links.each(function(link){ %>
           <li>
-            <a href="<%= link.url %>"><%= link.name %></a>
+            <a href="<%- link.url %>"><%= link.name %></a>
           </li>
         <% }) %>
       </ul>
