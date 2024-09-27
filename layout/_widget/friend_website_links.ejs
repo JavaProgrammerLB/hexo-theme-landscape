@@ -5,21 +5,11 @@
     </h3>
     <div class="widget">
       <ul>
-        <li>
-          <a href="https://comellia.com/">Comellia</a>
-        </li>
-        <li>
-          <a href="https://littlecheesecake.me/">LittleCheeseCake</a>
-        </li>
-        <li>
-          <a href="https://huntscreens.com/zh">HuntScreens</a>
-        </li>
-        <li>
-					<a href="http://www.folklore.org">Story about Macintosh</a>
-			  </li>
-        <li>
-					<a href="https://www.jonashietala.se/">Write Blog For More Than 15 years</a>
-			  </li>
+        <% config.friend_website_links.each(function(link){ %>
+          <li>
+            <a href="<%= link.url %>"><%= link.name %></a>
+          </li>
+        <% }) %>
       </ul>
     </div>
   </div>
