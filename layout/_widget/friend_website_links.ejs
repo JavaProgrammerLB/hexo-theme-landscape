@@ -5,7 +5,11 @@
     </h3>
     <div class="widget">
       <ul>
-        <%= config.friend_website_links  %>
+        <% config.friend_website_links.forEach(function(link){ %>
+          <li>
+            <a href="<%= link.url %>"><%= link.name %></a>
+          </li>
+        <% }) %>
       </ul>
     </div>
   </div>
